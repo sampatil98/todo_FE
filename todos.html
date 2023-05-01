@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOS</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        
+        <img id="logo" src="./img/todo_logo.png" alt="">
+        <h2><a href="./index.html">HOME</a></h2>
+        <h2><a href="./signup.html">SIGNUP</a></h2>
+        <h2><a href="./login.html">LOGIN</a></h2>
+        <h2><a href="./todos.html">TODOS</a></h2>
+       
+    </nav>
+
+    <div>
+        <h3 id="user">Welcome </h3>
+    </div>
+<div id="main_div">
+    <div id="side_div">
+        <div id="addtodo">
+            <h3>Create New TODO</h3>
+            <input id="todo_create_input" type="text"><br>
+            <button id="add_btn">Add TODO</button>
+            
+        </div>   
+        <div id="todo_filter">
+            <h2>Filters</h2>
+            <button id="alltodo" class="filters">See All TODOs</button>
+            <button id="completedtodo" class="filters">See Completed TODOs</button>
+            <button id="pendingtodos" class="filters">See Pending TODOs</button>
+
+        </div>
+    </div>
+    <div id="todo_container">
+
+    </div>
+    <div id="xyz">
+        <div  id="complete_task">       
+            <p>Completed Tasks</p>
+        </div>
+        <div id="complete_list">
+
+        </div>
+
+    </div>
+</div>
+    
+
+    
+
+
+    
+    
+</body>
+</html>
+<script src="./src/todos.js"></script>
